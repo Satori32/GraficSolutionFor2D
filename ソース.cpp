@@ -26,7 +26,7 @@ bool Swap(T& A, T& B) {
 	A = B;
 	B = C;
 
-	return true 
+	return true;
 }
 
 template <class T>
@@ -66,5 +66,11 @@ bool SetPixel(Space2D& In, Point2D<double>& P, RGB C) {
 int main() {
 	Space2D S = ConstructSpace2D(16, 16, { 1,1 });
 
+	RGB C;
+	C.R = 128;
+	SetPixel(S, { 8,8 }, C);
+
 	Free(S);
+
+	return 0;
 }

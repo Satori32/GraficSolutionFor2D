@@ -4,6 +4,7 @@
 #include "Size2D.h"
 #include "Point2D.h"
 #include "Point3D.h"
+#include "TimeTimer.h"
 
 template<class T>
 struct Limit {

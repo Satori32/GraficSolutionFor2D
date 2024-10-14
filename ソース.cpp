@@ -5,6 +5,7 @@
 #include "Point2D.h"
 #include "Point3D.h"
 #include "TimeTimer.h"
+#include "BigInt.h"
 
 template<class T>
 struct Limit {
